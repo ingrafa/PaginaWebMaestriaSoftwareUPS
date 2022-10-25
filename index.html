@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAESTRÍA EN SOFTWARE </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicios</a>
+            <a href="#galeria">Malla Curricular</a>
+            <a href="#expertos">Titulo a Obtener</a>
+            <a href="#footer">Registrarse</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Maestría en Software mención en:</h1>
+            <p class="copy">-Desarrollo Web y Móvil.</p>
+            <p class="copy">-Diseño de Arquitectura de Sistemas.</p>
+        </div>
+
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/Captura.JPG" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Perfil de ingreso</h3>
+                        <p> El programa de Maestría en Software estará dirigido a profesionales que cuenten con titulaciones de tercer nivel de grado en el campo amplio de las tecnologías de la información y la comunicación (TIC) y en el campo detallado de
+                            la Electrónica, Automatización y Sonido, que cuenten con al menos 1 año de experiencia en el desarrollo de software..</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Requisitos de Matrícula</h3>
+                        <p> - Copia de título de tercer nivel de GRADO debidamente registrado en el Sistema Nacional de Información de la Educación Superior del Ecuador (SNIESE).</p>
+                        <br>
+                        <p>- Copia del documento de identificación (cédula o pasaporte)
+                            <br>
+                            <p>- Copia del certificado de votación</p>
+                            <br>
+                            <p>- Hoja de Vida (documento enviado por el director)</p>
+                            <br>
+                            <p>- Aprobar el proceso de admisión correspondiente .</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">MALLA CURRICULAR </h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Titulo a Obtener:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/pie_chart.svg" alt="">
+                    <h3 class="n-expert"> Magíster en Software: </h3>
+                    <p>Mención en Desarrollo Web y Móvil</p>
+                    <p>Mención en Diseño de Arquitectura de Sistemas</p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/search_engine.svg" alt="">
+                    <h3 class="n-expert">Modalidad</h3>
+                    <p>Hibrida</p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/security.svg" alt="">
+                    <h3 class="n-expert">Duracion</h3>
+                    <p>1 año (48 semanas)</p>
+                    <p> Resolucion</p>
+                    <p>RPC-SO-34-No.778-2021</p>
+                </div>
+
+                <div class="cont-expert">
+                    <img src="img/CSS_Outline.svg" alt="">
+                    <h4 class="n-expert">Opcions de titulacion</h4>
+                    <p> Horarios: Jueves - Viernes - Sábado </p>
+                    <br>
+                    <p>- Quito: jueves y viernes 17:30 a 21:30 - sábado 8:00 a 14:00 Campus Girón</p>
+                    <p>- Cuenca: jueves y viernes de 18:00 a 22:00 - sábado 8:00 a 14:00 Campus El Vecino</p>
+                    <p>- Guayaquil: jueves y viernes de 18:00 a 22:00 - sábado 8:00 a 14:00 Campus María Auxiliadora </p>
+
+
+
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <center></center>
+                <h2 class="brand">Maestrías en 1 año</h2>
+                <p>posgrados.ups.edu.ec</p>
+                <p>Crea tu propia historia estudia! POSGRADOS!</p>
+                <div class="container">
+                    <form action="" class="form" id="form" autocomplete="off">
+                        <p class="form-titulo">Regístrate</p>
+                        <div class="form-input myname">
+                            <input type="text" id="myname">
+                            <label for="myname">Nombre</label>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input surname">
+                            <input type="text" id="surname">
+                            <label for="surname">Apellidos</label>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input email">
+                            <input type="email" id="email">
+                            <label for="email">Correo electrónico</label>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input mobile">
+                            <input type="text" id="mobile">
+                            <label for="mobile">Celular</label>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input cedula">
+                            <input type="cedula" id="cedula">
+                            <label for="cedula">Cedula</label>
+                            <p class="mensajeError"></p>
+                        </div>
+
+                        <div class="form-termsAndConditions termsAndConditions">
+                            <input type="checkbox" id="termsAndConditions">
+                            <label for="termsAndConditions">He leído y acepto los </label>
+                            <a href="#">Términos y Condiciones</a>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-boton">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <p class="mensajeCorrecto"></p>
+                    </form>
+                </div>
+                </center>
+                <script src="js/form.js"></script>
+
+
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+
+                    <i class='bx bxl-facebook'></i>
+
+                </a>
+                <a href="./" class="https://www.facebook.com/PosgradosUPS">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
